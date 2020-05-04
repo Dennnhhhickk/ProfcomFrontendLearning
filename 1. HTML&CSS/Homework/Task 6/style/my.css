@@ -1,0 +1,55 @@
+p.first:first-line{
+	font-style: italic;
+}
+
+p::selection{
+	background-color: black;
+	color: white;
+}
+
+p.second:before{
+	content: '\8594';
+}
+
+p.second:after{
+	content: '\AE';
+}
+
+h1:first-letter{
+	color: purple;
+	font-size: 24px;
+}
+
+h2:first-letter{
+	color: purple;
+	font-size: 24px;
+}
+
+h3:first-letter{
+	color: purple;
+	font-size: 24px;
+}
+
+a{
+	font-size: 30px;
+}
+
+a:link{
+	color: green;
+	background-color: blue;
+}
+
+a:visited{
+	color: blue;
+	background-color: green;
+}
+
+a:active{
+	color: red;
+	background-color: gray;
+}
+
+a:hover{
+	color: gray;
+	background-color: red;
+}
