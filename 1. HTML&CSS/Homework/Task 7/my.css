@@ -1,0 +1,19 @@
+a[href="https://youtube.com"]{
+	color: red;
+}
+
+a[href="https://github.com"]{
+	color: green;
+}
+
+img[title="ff"]{
+	transform: rotate(45deg);
+}
+
+img[title="fg"]{
+	transform: scale(0.75);
+}
+
+img[title="gg"]{
+	transform: skewX(30deg);
+}
